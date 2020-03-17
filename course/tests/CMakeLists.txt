@@ -1,0 +1,3 @@
+add_executable(cmake_test cmake_test.cpp)
+add_executable(complex_test complex_test.cpp)
+target_link_libraries(complex_test course)
